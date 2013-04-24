@@ -1,6 +1,8 @@
 TestRails::Application.routes.draw do
   resources :cards
 
+  match ':action' => 'static#:action'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
