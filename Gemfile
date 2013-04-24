@@ -41,4 +41,4 @@ group :test, :development do
   gem "rspec-rails", "~> 2.0"
 end
 
-'haml-rails', '= 0.3.4'
+gem 'haml-rails', '= 0.3.4'
