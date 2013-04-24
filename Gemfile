@@ -40,3 +40,5 @@ gem 'jquery-rails'
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
 end
+
+'haml-rails', '= 0.3.4'
